@@ -63,3 +63,9 @@ a {
 img{
   max-width: 100%;
 }
+
+imput {
+  size: 4px:
+  maxlength: 4;
+
+}
