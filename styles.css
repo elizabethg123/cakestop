@@ -41,3 +41,25 @@ a {
   width: 300px;
   float: right;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  width: 100%;
+}
+
+.grid-item {
+  background-color: pink;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  max-width: 100%;
+}
+
+img{
+  max-width: 100%;
+}
