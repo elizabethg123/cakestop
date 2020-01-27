@@ -45,7 +45,7 @@ a {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #2196F3;
+  background-color: #2196F3
   padding: 10px;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
@@ -53,8 +53,8 @@ a {
 }
 
 .grid-item {
-  background-color: pink;
-  border: 1px solid black;
+  background-color: pink
+  border: 1px solid gray;
   text-align: center;
   padding: 10px;
   max-width: 100%;
