@@ -1,5 +1,6 @@
-\* {
-  font-family: "Courier New", Courier, monospace;
+/* Website formatting */
+* {
+  font-family: 'Montserrat', sans-serif;
   color: black;
   margin: 0;
   padding: 0;
@@ -8,28 +9,17 @@
 
 .page {
   width: 90%;
-  margin: auto	
+  margin: auto;
 }
 
+/* Navbar */
 .navbar {
-  background: #88E1FF;	
+  background: #ea9abb;
+  border: none;
 }
 
 .active a {
-  background: #F0F0F0 !important;
-}
-
-footer{
-  position: fixed;
-  margin-bottom: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  height: 50px;
-  background: #F0F0F0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: #f1f9f9 !important;
 }
 
 a {
@@ -37,24 +27,39 @@ a {
   text-decoration: none;
 }
 
+/* Footer */
+footer{
+  position: fixed;
+  margin-bottom: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+  background: #f1f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* About */
 .about {
   width: 300px;
   float: right;
 }
 
+/* Products */
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #2196F3
   padding: 10px;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   width: 100%;
+  margin-bottom: 40px;
 }
 
 .grid-item {
-  background-color: pink
-  border: 1px solid gray;
   text-align: center;
   padding: 10px;
   max-width: 100%;
@@ -64,20 +69,28 @@ img{
   max-width: 100%;
 }
 
-imput {
-  size: 4px:
-  maxlength: 4;
-
+/* Shopping Cart */
+.shopping-cart{
+  display: flex;
+  margin-bottom: 10px;
 }
 
-.crop {
-  width: 200px;
-  height: 150px;
-  overflow: hidden;
+.cart-image {
+  flex: 25%;
+  padding: 5px;
 }
 
-.crop img {
-  width: 400px;
-  height: 300px;
-  margin: -75px 0 0 -100px;
+.cart-text {
+  flex: 75%;
+  padding: 5px;
 }
+
+.buy {
+	background-color:#ea9abb;
+	border-radius:2px;
+	display:inline-block;
+	cursor:pointer;
+	padding:6px 24px;
+	text-decoration:none;
+}
+
