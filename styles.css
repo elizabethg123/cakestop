@@ -101,6 +101,7 @@ img{
 .shopping-cart{
   display: flex;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .cart-image {
