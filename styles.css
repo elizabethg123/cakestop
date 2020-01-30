@@ -10,6 +10,7 @@
 .page {
   width: 90%;
   margin: auto;
+  text-align: center;
 }
 
 /* Navbar */
@@ -42,6 +43,36 @@ footer{
 }
 
 
+/* Home */
+.home-image {
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: black;
+  background-color: #ea9abb;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+
+.centered h1 {
+  font-weight: bold;
+  font-size: 6rem;
+}
+
+#home-text{
+  font-weight: bold;
+  text-align: center;
+}
+
+
 /* About */
 .about {
   width: 300px;
@@ -70,6 +101,11 @@ img{
 }
 
 /* Shopping Cart */
+.cart-page {
+  width: 90%;
+  margin: auto;
+}
+
 .shopping-cart{
   display: flex;
   margin-bottom: 10px;
@@ -93,4 +129,3 @@ img{
 	padding:6px 24px;
 	text-decoration:none;
 }
-
