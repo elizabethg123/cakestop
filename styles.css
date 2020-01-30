@@ -13,6 +13,7 @@
   text-align: center;
 }
 
+
 /* Navbar */
 .navbar {
   background: #ea9abb;
@@ -27,6 +28,7 @@ a {
   color: black !important;
   text-decoration: none;
 }
+
 
 /* Footer */
 footer{
@@ -73,12 +75,6 @@ footer{
 }
 
 
-/* About */
-.about {
-  width: 300px;
-  float: right;
-}
-
 /* Products */
 .grid-container {
   display: grid;
@@ -100,12 +96,8 @@ img{
   max-width: 100%;
 }
 
-/* Shopping Cart */
-.cart-page {
-  width: 90%;
-  margin: auto;
-}
 
+/* Shopping Cart */
 .shopping-cart{
   display: flex;
   margin-bottom: 10px;
@@ -119,6 +111,7 @@ img{
 .cart-text {
   flex: 75%;
   padding: 5px;
+  text-align: left:
 }
 
 .buy {
